@@ -1,7 +1,8 @@
 ## Outline
-[Overview](https://github.com/RobotFormAndFunction/BuffaloBytes/edit/main/README.md#overview)
-[Hardware Specifications](https://github.com/RobotFormAndFunction/BuffaloBytes/edit/main/README.md#hardware-specifications)
-Hardware Assembly
+- [Overview](https://github.com/RobotFormAndFunction/BuffaloBytes/edit/main/README.md#overview)
+- [Hardware Specifications](https://github.com/RobotFormAndFunction/BuffaloBytes/edit/main/README.md#hardware-specifications)
+- Hardware Assembly
+- Programming
 
 
 # Overview
@@ -9,4 +10,5 @@ This repository contains Buffalo Bytes design, including the circuit board and m
 
 # Hardware Specifications
 This section details the electrical and mechanical hardware used in the Buffalo Bytes platform.
+
 ## Electrical hardware
