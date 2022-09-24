@@ -14,8 +14,9 @@ This section details the electrical and mechanical hardware used in the Buffalo 
 ## Electrical hardware
 ### Bill of materials (BOM)
 #### Passives
-| Component | Value	Quantity | Package size |
-| :--- | --- | --- | --- |
+
+| Component | Value	| Quantity | Package size |
+| :--- | --- | :---: | --- |
 | Capacitor |	0.1 µF |	5 |	0603 |
 | Capacitor |	8.6 pF |	1 |	0603 |
 | Capacitor | 2.4 pF |	1 |	0603 |
@@ -31,3 +32,16 @@ This section details the electrical and mechanical hardware used in the Buffalo 
 | Resistor |	1 kΩ |	1 |	0603 |
 | Resistor |	4.7 kΩ |	4 |	0603 |		
 | LED |	Red |	1 |	0603 |
+
+#### Electronics
+
+| Part | Part Number	| Quantity | Package size |
+| :--- | --- | :---: | --- |
+| Antenna |	AN9520-245 |	1 |	ANT-SMD_L9.5-W2.1 |
+| Crystal - 26 MHz | ECS-260 |	1 |	4-SMD, no lead |
+| MCU |	ESP8266x |	1 |	QFN-32 |
+| Motor driver |	DRV8833 |	1 |	TSSOP-16 |
+| IMU |	MPU6050 |	1 |	QFN-24 |
+| LDO Voltage regulator |	TPS7A0533PDBZR | 1 |	SOT-23 |	
+| Flash memory | ZB25VQ80 | 1 | SOIC-8 |
+
