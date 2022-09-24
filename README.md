@@ -12,7 +12,8 @@ This repository contains Buffalo Bytes design, including the circuit board and m
 This section details the electrical and mechanical hardware used in the Buffalo Bytes platform.
 
 ## Electrical hardware
-The custom PCB of Buffalo Bytes is shown in the following figure. <img width="355" alt="PCB_annotate" src="https://user-images.githubusercontent.com/98366383/192120304-c5c27094-9d2a-403d-add5-8a4309c0fccf.png">
+The custom PCB of Buffalo Bytes is shown in the following figure. 
+<img width="355" alt="PCB_annotate" src="https://user-images.githubusercontent.com/98366383/192120304-c5c27094-9d2a-403d-add5-8a4309c0fccf.png">
 
 The schematic of the board is shown here [link], and Gerber files [here].
 
