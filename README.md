@@ -12,7 +12,7 @@ This repository contains Buffalo Bytes design, including the circuit board and m
 This section details the electrical and mechanical hardware used in the Buffalo Bytes platform.
 
 ## Electrical hardware
-The custom PCB of Buffalo Bytes is shown in the following figure. 
+The custom PCB of for Buffalo Bytes is shown below, with the top (A) and bottom (B). 
 
 <p align="center">
 <img width="355" alt="PCB_annotate" src="https://user-images.githubusercontent.com/98366383/192120304-c5c27094-9d2a-403d-add5-8a4309c0fccf.png">
@@ -20,7 +20,8 @@ The custom PCB of Buffalo Bytes is shown in the following figure.
 
 The schematic of the board is shown here link, and Gerber files here.
 
-### Bill of materials (BOM)
+<details><summary>Bill of materials (BOM)</summary>
+
 #### Passives
 
 | Component | Value	| Quantity | Package size |
@@ -52,4 +53,4 @@ The schematic of the board is shown here link, and Gerber files here.
 | IMU |	MPU6050 |	1 |	QFN-24 |
 | LDO Voltage regulator |	TPS7A0533PDBZR | 1 |	SOT-23 |	
 | Flash memory | ZB25VQ80 | 1 | SOIC-8 |
-
+</details>
