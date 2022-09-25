@@ -7,9 +7,9 @@ The custom PCB of for Buffalo Bytes is shown below, with the top (A) and bottom 
 
 The schematic of the board is shown here link, and Gerber files here.
 
-###Bill of materials (BOM)
+## Bill of materials (BOM)
 
-#### Passives
+### Passives
 
 | Component | Value	| Quantity | Package size |
 | :--- | --- | :---: | --- |
@@ -29,7 +29,7 @@ The schematic of the board is shown here link, and Gerber files here.
 | Resistor |	4.7 kΩ |	4 |	0603 |		
 | LED |	Red |	1 |	0603 |
 
-#### Electronics
+### Electronics
 
 | Part | Part Number	| Quantity | Package size |
 | :--- | --- | :---: | --- |
