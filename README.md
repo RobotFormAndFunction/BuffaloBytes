@@ -12,13 +12,7 @@ This repository contains Buffalo Bytes design, including the circuit board and m
 This section details the electrical and mechanical hardware used in the Buffalo Bytes platform.
 
 ## Electrical hardware
-The custom PCB of for Buffalo Bytes is shown below, with the top (A) and bottom (B). 
-
-<p align="center">
-<img width="355" alt="PCB_annotate" src="https://user-images.githubusercontent.com/98366383/192120304-c5c27094-9d2a-403d-add5-8a4309c0fccf.png">
-</p>
-
-The schematic of the board is shown here link, and Gerber files here.
+The custom PCB of for Buffalo Bytes is detailed in , with the schematic of the board, Gerber files, and BOM (bill of materials). The microcontroller is an ESP8266x SoC (system-on-a-chip), which enables Wi-Fi, and general input/outputs. The summary of electrical hardware is below in the BOM. 
 
 <details><summary>Bill of materials (BOM)</summary>
 
