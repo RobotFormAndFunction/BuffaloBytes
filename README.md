@@ -12,7 +12,7 @@ This repository contains Buffalo Bytes design, including the circuit board and m
 This section details the electrical and mechanical hardware used in the Buffalo Bytes platform.
 
 ## Electrical hardware
-The custom PCB of for Buffalo Bytes is detailed in [here](https://github.com/RobotFormAndFunction/BuffaloBytes/tree/main/ElectricalHardware), with the schematic of the board, Gerber files, and BOM (bill of materials). The microcontroller is an ESP8266x SoC (system-on-a-chip), which enables Wi-Fi, and general input/outputs. The summary of electrical hardware is below in the BOM. 
+The custom PCB for Buffalo Bytes is detailed in [here](https://github.com/RobotFormAndFunction/BuffaloBytes/tree/main/ElectricalHardware), with the schematic of the board, Gerber files, and BOM (bill of materials). The microcontroller is an ESP8266x SoC (system-on-a-chip), which enables Wi-Fi, and general input/outputs. The summary of electrical hardware is below in the BOM. 
 
 <details><summary>Bill of materials (BOM)</summary>
 
