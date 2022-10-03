@@ -1,7 +1,7 @@
 ## Outline
 - [Overview](https://github.com/RobotFormAndFunction/BuffaloBytes/edit/main/README.md#overview)
 - [Hardware Specifications](https://github.com/RobotFormAndFunction/BuffaloBytes/edit/main/README.md#hardware-specifications)
-- Hardware Assembly
+- [Hardware Assembly](https://github.com/RobotFormAndFunction/BuffaloBytes#assembly)
 - Programming
 
 
@@ -56,4 +56,8 @@ The exploded view of a Buffalo Byte is shown below.
 <p align="center">
 <img width="355" alt="Exploded View of Buffalo Bytes" src="https://user-images.githubusercontent.com/98366383/193653022-2081b63d-f911-4a9f-a0bb-ed56e06d5148.png">
 </p>
+
+First, the custom PCB needs to be populated (details in [Electrical Hardware](https://github.com/RobotFormAndFunction/BuffaloBytes/tree/main/ElectricalHardware)), and all of the mechanical hardware sourced, printed, and molded (details in [Mechanical Hardware](https://github.com/RobotFormAndFunction/BuffaloBytes/tree/main/MechanicalHardware)).
+
+Each Buffalo Byte is assembled by sliding the motors into the chassis, attached the actuated wheels to the motors, and unactuated wheels to carbon fiber axles. The molded treads are wrapped around each actuated-unactuated wheel pair. The motor wires are connected to the custom PCB, and the battery connected to the PCB as well. Kapton tape is applied around the body to secure all parts. 
 
