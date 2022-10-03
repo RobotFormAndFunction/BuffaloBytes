@@ -16,9 +16,3 @@ One copy of the [chassis.stl](https://github.com/RobotFormAndFunction/BuffaloByt
 The [tread_mold.stl](https://github.com/RobotFormAndFunction/BuffaloBytes/blob/main/MechanicalHardware/tread_mold.stl) file was printed on an FDM printer, we used a Raise3D E2 printer. After printing, a two-part silicone rubber (DragonSkin 10) was mixed and poured into the mold and allowed to cure overnight.
 
 
-### Assembly
-The exploded view of a Buffalo Byte is shown below.
-
-<p align="center">
-<img width="355" alt="Exploded View of Buffalo Bytes" src="https://user-images.githubusercontent.com/98366383/193653022-2081b63d-f911-4a9f-a0bb-ed56e06d5148.png">
-</p>
