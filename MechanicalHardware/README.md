@@ -20,5 +20,5 @@ The [tread_mold.stl](https://github.com/RobotFormAndFunction/BuffaloBytes/blob/m
 The exploded view of a Buffalo Byte is shown below.
 
 <p align="center">
-<img width="355" alt="Exploded View of Buffalo Bytes" src="https://user-images.githubusercontent.com/98366383/193652592-99d12340-c6e9-4619-b535-1ab53ba3f8a0.png)">
+<img width="355" alt="Exploded View of Buffalo Bytes" src="https://user-images.githubusercontent.com/98366383/193653022-2081b63d-f911-4a9f-a0bb-ed56e06d5148.png">
 </p>
