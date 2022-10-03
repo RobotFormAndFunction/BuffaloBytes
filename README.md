@@ -48,3 +48,12 @@ The custom PCB for Buffalo Bytes is detailed in [here](https://github.com/RobotF
 | LDO Voltage regulator |	TPS7A0533PDBZR | 1 |	SOT-23 |	
 | Flash memory | ZB25VQ80 | 1 | SOIC-8 |
 </details>
+
+
+# Assembly
+The exploded view of a Buffalo Byte is shown below.
+
+<p align="center">
+<img width="355" alt="Exploded View of Buffalo Bytes" src="https://user-images.githubusercontent.com/98366383/193653022-2081b63d-f911-4a9f-a0bb-ed56e06d5148.png">
+</p>
+
