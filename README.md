@@ -66,7 +66,6 @@ Each Buffalo Byte is assembled by sliding the motors into the chassis, attached 
 To Buffalo Bytes Boards has 8 headers that goes directly into esp8266 burning fixture to upload bootlaoder or code serially. 
 
 <p align="center">
-<img width="355" alt="Exploded View of Buffalo Bytes" src="<p align="center">
 <img width="355" alt="Exploded View of Buffalo Bytes" src="https://user-images.githubusercontent.com/98366383/193653022-2081b63d-f911-4a9f-a0bb-ed56e06d5148.png">
 </p>">
 </p>
