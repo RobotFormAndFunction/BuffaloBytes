@@ -63,11 +63,10 @@ Each Buffalo Byte is assembled by sliding the motors into the chassis, attached 
 
 ## Programming
 
-To Buffalo Bytes Boards has 8 headers that goes directly into esp8266 burning fixture to upload bootlaoder or code serially. 
+To Buffalo Bytes Boards has 8 headers that goes directly into ESP8266 burning fixture to upload bootlaoder or code serially. 
 
 <p align="center">
-<img width="355" alt="Exploded View of Buffalo Bytes" src="https://user-images.githubusercontent.com/106442702/197238584-981c5061-8b97-4bf7-b8e5-539e3fdb67ee.png">
-</p>">
+<img width="355" alt="ESP8266 Burning fixture" src="https://user-images.githubusercontent.com/106442702/197238584-981c5061-8b97-4bf7-b8e5-539e3fdb67ee.png">
 </p>
 
 The board can be bootloaded with both Arduino and MicroPython to make software development easy. The esp8266 chip comes with Arduino Bootloader, and we used thonnny software to bootload Micropython firmware on it.We have downloaded and uploaded the latest micropython firmware from official micropython website. (https://micropython.org/download/esp8266-1m/)
