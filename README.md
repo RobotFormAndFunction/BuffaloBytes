@@ -2,7 +2,7 @@
 - [Overview](https://github.com/RobotFormAndFunction/BuffaloBytes/edit/main/README.md#overview)
 - [Hardware Specifications](https://github.com/RobotFormAndFunction/BuffaloBytes/edit/main/README.md#hardware-specifications)
 - [Hardware Assembly](https://github.com/RobotFormAndFunction/BuffaloBytes#assembly)
-- Programming
+- [Programming](https://github.com/RobotFormAndFunction/BuffaloBytes#programming)
 
 
 # Overview
@@ -63,13 +63,14 @@ Each Buffalo Byte is assembled by sliding the motors into the chassis, attached 
 
 ## Programming
 
-To Buffalo Bytes Boards has 8 headers that goes directly into female headeres of ESP8266 burning fixture to upload bootlaoder or code serially. The USB-ASP programmer can also be used to do the same, though it is not as straightforward as using the mentioned fixture. 
+To Buffalo Bytes Boards has 8 headers that goes directly into female headers of ESP8266 burning fixture to upload either the bootloader or code through serial communication. A USB-ASP programmer can also be used to do the same task, though the the burning fixture is recommended. 
 
 <p align="center">
 <img width="355" alt="ESP8266 Burning fixture" src="https://user-images.githubusercontent.com/106442702/197238584-981c5061-8b97-4bf7-b8e5-539e3fdb67ee.png">
 </p>
 
-The board can be bootloaded with both Arduino and MicroPython to make software development easy. The esp8266 chip comes with Arduino Bootloader, and we used thonnny software to bootload Micropython firmware on it. We have downloaded and uploaded the latest micropython firmware from official micropython website. (https://micropython.org/download/esp8266-1m/)
-In this work, the board is flashed with the Arduino bootloader, and the Arduino IDE was used for software development. Alternatively, the board also enables wireless programming using Wi-Fi. To do this, a base script must be first uploaded through a serial connection, then additional programs can be sent via Wi-Fi.
+The board can be bootloaded with both Arduino and MicroPython to make software development easy. In this work, the board is flashed with the Arduino bootloader, and the Arduino IDE was used for software development. Alternatively, the board also enables wireless programming using Wi-Fi. To do this, a base script must be first uploaded through a serial connection, then additional programs can be sent via Wi-Fi.
+
+To bootload Micropython firmware on the board, we downloaded and uploaded the latest micropython firmware from official micropython website. [(https://micropython.org/download/esp8266-1m/)](https://micropython.org/download/esp8266-1m/).
 
 
