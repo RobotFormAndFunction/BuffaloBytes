@@ -63,7 +63,7 @@ Each Buffalo Byte is assembled by sliding the motors into the chassis, attached 
 
 ## Programming
 
-To Buffalo Bytes Boards has 8 headers that goes directly into female headers of ESP8266 burning fixture to upload either the bootloader or code through serial communication. A USB-ASP programmer can also be used to do the same task, though the the burning fixture is recommended. 
+To Buffalo Bytes Boards has 8 headers that goes directly into female headers of ESP8266 burning fixture to upload either the bootloader or code through serial communication. A USB-ASP programmer can also be used to do the same task, though the burning fixture is recommended. 
 
 <p align="center">
 <img width="355" alt="ESP8266 Burning fixture" src="https://user-images.githubusercontent.com/106442702/197238584-981c5061-8b97-4bf7-b8e5-539e3fdb67ee.png">
