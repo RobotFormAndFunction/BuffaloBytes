@@ -5,7 +5,7 @@ The custom PCB of for Buffalo Bytes is shown below, with the top (A) and bottom 
 <img width="355" alt="PCB_annotate" src="https://user-images.githubusercontent.com/98366383/192120304-c5c27094-9d2a-403d-add5-8a4309c0fccf.png">
 </p>
 
-The schematic of the board is shown [here](https://github.com/RobotFormAndFunction/BuffaloBytes/blob/main/ElectricalHardware/BuffaloBytes_schematic.pdf), and Gerber files [here](https://github.com/RobotFormAndFunction/BuffaloBytes/blob/main/ElectricalHardware/Gerber_PCB_BuffaloBytes.zip).
+The schematic of the board is shown [here](https://github.com/RobotFormAndFunction/BuffaloBytes/blob/main/ElectricalHardware/Buffalo_Bytes_schematic.pdf), and Gerber files [here](https://github.com/RobotFormAndFunction/BuffaloBytes/blob/main/ElectricalHardware/Gerber_PCB_BuffaloBytes.zip).
 
 ## Bill of materials (BOM)
 
