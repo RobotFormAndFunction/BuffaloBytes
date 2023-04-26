@@ -37,7 +37,7 @@ The schematic of the board is shown [here](https://github.com/RobotFormAndFuncti
 | Crystal - 26 MHz | ECS-260 |	1 |	4-SMD, no lead |
 | MCU |	ESP8266x |	1 |	QFN-32 |
 | Motor driver |	DRV8833 |	1 |	TSSOP-16 |
-| IMU |	MPU6050 |	1 |	QFN-24 |
+| IMU |	MPU6881 |	1 |	QFN-24 |
 | LDO Voltage regulator |	TPS7A0533PDBZR | 1 |	SOT-23 |	
 | Flash memory | ZB25VQ80 | 1 | SOIC-8 |
 
