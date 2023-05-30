@@ -54,7 +54,7 @@ The custom PCB for Buffalo Bytes is detailed in [here](https://github.com/RobotF
 The exploded view of a Buffalo Byte is shown below.
 
 <p align="center">
-<img width="355" alt="Exploded View of Buffalo Bytes" src="https://user-images.githubusercontent.com/98366383/193653022-2081b63d-f911-4a9f-a0bb-ed56e06d5148.png">
+<img width="355" alt="Exploded View of Buffalo Bytes" src="https://github.com/RobotFormAndFunction/BuffaloBytes/files/11603183/exploded_view_v2.pdf">
 </p>
 
 First, the custom PCB needs to be populated (details in [Electrical Hardware](https://github.com/RobotFormAndFunction/BuffaloBytes/tree/main/ElectricalHardware)), and all of the mechanical hardware sourced, printed, and molded (details in [Mechanical Hardware](https://github.com/RobotFormAndFunction/BuffaloBytes/tree/main/MechanicalHardware)).
