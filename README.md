@@ -54,7 +54,7 @@ The custom PCB for Buffalo Bytes is detailed in [here](https://github.com/RobotF
 The exploded view of a Buffalo Byte is shown below.
 
 <p align="center">
-<img width ="355" alt="Exploded View of Buffalo Bytes" src="https://user-images.githubusercontent.com/106442702/242057644-7e49b4de-75d0-48bc-acb6-8a6b61edad59.png">
+<img width ="500" alt="Exploded View of Buffalo Bytes" src="https://user-images.githubusercontent.com/106442702/242057644-7e49b4de-75d0-48bc-acb6-8a6b61edad59.png">
 </p>
 
 First, the custom PCB needs to be populated (details in [Electrical Hardware](https://github.com/RobotFormAndFunction/BuffaloBytes/tree/main/ElectricalHardware)), and all of the mechanical hardware sourced, printed, and molded (details in [Mechanical Hardware](https://github.com/RobotFormAndFunction/BuffaloBytes/tree/main/MechanicalHardware)).
@@ -66,7 +66,7 @@ Each Buffalo Byte is assembled by sliding the motors into the chassis, attached 
 To Buffalo Bytes Boards has 8 headers that goes directly into female headers of ESP8266 burning fixture to upload either the bootloader or code through serial communication. A USB-ASP programmer can also be used to do the same task, though the burning fixture is recommended. 
 
 <p align="center">
-<img alt="ESP8266 Burning fixture" src="https://user-images.githubusercontent.com/106442702/197238584-981c5061-8b97-4bf7-b8e5-539e3fdb67ee.png">
+<img width ="500" alt="ESP8266 Burning fixture" src="https://user-images.githubusercontent.com/106442702/197238584-981c5061-8b97-4bf7-b8e5-539e3fdb67ee.png">
 </p>
 
 The board can be bootloaded with both Arduino and MicroPython to make software development easy. In this work, the board is flashed with the Arduino bootloader, and the Arduino IDE was used for software development. Alternatively, the board also enables wireless programming using Wi-Fi. To do this, a base script must be first uploaded through a serial connection, then additional programs can be sent via Wi-Fi.
