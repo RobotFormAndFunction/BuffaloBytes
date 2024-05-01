@@ -22,6 +22,7 @@ To cite:
   pages={4067-4074},
   keywords={Robots;Robot sensing systems;Legged locomotion;Wheels;Batteries;Wireless fidelity;Three-dimensional displays;Biomimetics;field robots;biologically-inspired robots;millirobot},
   doi={10.1109/LRA.2024.3375290}}
+```
 
 # Hardware Specifications
 This section details the electrical and mechanical hardware used in the Buffalo Bytes platform.
