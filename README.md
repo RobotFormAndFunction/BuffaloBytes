@@ -12,7 +12,7 @@ The robot is presented in the the IEEE Robotics and Automation Letter article, [
 
 To cite:
 ```bibtex
-@ARTICLE{10465605,
+@ARTICLE{Singh_2024,
   author={Singh, Shashwat and Truax, Reed and St.~Pierre, Ryan},
   journal={IEEE Robotics and Automation Letters}, 
   title={Buffalo Byte: A Highly Mobile and Autonomous Millirobot Platform}, 
