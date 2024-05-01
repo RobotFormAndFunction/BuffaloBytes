@@ -8,6 +8,21 @@
 # Overview
 This repository contains Buffalo Bytes design, including the circuit board and mechanical hardware. The bill of materials and 3D design files are included. This README file details the hardware specifications and tutorials on getting started with the Buffalo Bytes platform.
 
+The robot is presented in the the IEEE Robotics and Automation Letter article, [Buffalo Byte: A Highly Mobile and Autonomous Millirobot Platform](https://ieeexplore.ieee.org/document/10465605)
+
+To cite:
+```bibtex
+@ARTICLE{10465605,
+  author={Singh, Shashwat and Truax, Reed and St.~Pierre, Ryan},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Buffalo Byte: A Highly Mobile and Autonomous Millirobot Platform}, 
+  year={2024},
+  volume={9},
+  number={5},
+  pages={4067-4074},
+  keywords={Robots;Robot sensing systems;Legged locomotion;Wheels;Batteries;Wireless fidelity;Three-dimensional displays;Biomimetics;field robots;biologically-inspired robots;millirobot},
+  doi={10.1109/LRA.2024.3375290}}
+
 # Hardware Specifications
 This section details the electrical and mechanical hardware used in the Buffalo Bytes platform.
 
