@@ -1,0 +1,1094 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EF0B4630E9D6A747481AE40439299B /* Pods-Buffalo Byte Remote ControlTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F69541BBE4ADA4FC229BAC85C0F7272 /* Pods-Buffalo Byte Remote ControlTests-dummy.m */; };
+		0892173070F4655D9BC77CD833C779EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0C5AC844AC540F1D9D0B216D1586A9C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		18A838CE22EC2DEEAA665DDE1838F681 /* CoreGraphics+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F473E742AD48B39B9B62DA140E0A8F0 /* CoreGraphics+Additions.swift */; };
+		40165E7185203B0CAAEC2C341DC7D99F /* JoyStickViewMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2904CCC84DA0292FEF11E19490D873 /* JoyStickViewMonitor.swift */; };
+		427A66601FAD9D914786661B1BAA0BFA /* Pods-Buffalo Byte Remote Control-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0084A28728E06D0A4D54CB2E34D6C79F /* Pods-Buffalo Byte Remote Control-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544187F53255A29931CF40A80567FA3D /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 008E27B73125829E9D33D8F6C3CC2698 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-dummy.m */; };
+		55D26CB6F0972A445C846E199C09BA47 /* Pods-Buffalo Byte Remote ControlTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4D34179B28200A88E3ECDB5F6223B3 /* Pods-Buffalo Byte Remote ControlTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C6E5003BB0C73CF065E7425A6810F79 /* Bundle+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1B8688F868A49E7654D98E4365FBA /* Bundle+Additions.swift */; };
+		5F3402547CCAE0DEC9907C37D0E081A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0700161FD8A663F3ED900DD63A886899 /* Assets.xcassets */; };
+		A25B5E2A88B42A9F4D5A25D623B319C1 /* BRHJoyStickView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F1F40A6F099E0D63E8F2902D8A4E321 /* BRHJoyStickView.bundle */; };
+		B01DEC5B457F83B0D2C7B91D3D25A5E9 /* Pods-Buffalo Byte Remote Control-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B476C3DA04313ABB274E4522303575A /* Pods-Buffalo Byte Remote Control-dummy.m */; };
+		B1CB0832CEC679F64B25342F90487F54 /* BRHJoyStickView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E3CBECC59C88334DB2A2E516ECC8D /* BRHJoyStickView-dummy.m */; };
+		B2D549DA60A96A31588E579C95819C78 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9490328CD63D31543FD0E8851EE529 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4952401103E17D34EA98AF3D2480BC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D215E3B8544E2D0FD0A62BE306469B5A /* JoyStickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E9EF549AD9103EDC7D37D9C2014EE /* JoyStickView.swift */; };
+		DBD4A2AF6C7FF4C41B5CD7881B3F9B0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F58BED26590B08FFB47F065D9C830D23 /* BRHJoyStickView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 149BFD9FE46A3C137F85AFD47F8B507B /* BRHJoyStickView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		565491A691047D43FE4F36ACAE8BF1BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12A537F6F989C7795D7BC486FA38E78;
+			remoteInfo = "Pods-Buffalo Byte Remote Control";
+		};
+		93582302E263E3D9E59A2EAB7B5D4F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6F17105988B1F38EF2A3D31277833C;
+			remoteInfo = BRHJoyStickView;
+		};
+		9DCFA7D1A60C7536FA69CD5D714C118A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DB37D32E4103D95B632DDF492B6A34;
+			remoteInfo = "BRHJoyStickView-BRHJoyStickView";
+		};
+		E827D2E40899A41A477665442E174184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6F17105988B1F38EF2A3D31277833C;
+			remoteInfo = BRHJoyStickView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0084A28728E06D0A4D54CB2E34D6C79F /* Pods-Buffalo Byte Remote Control-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Buffalo Byte Remote Control-umbrella.h"; sourceTree = "<group>"; };
+		008E27B73125829E9D33D8F6C3CC2698 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-dummy.m"; sourceTree = "<group>"; };
+		0700161FD8A663F3ED900DD63A886899 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/JoyStickView/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		0AFFF08C96DF66A42D8876B20CFE2F9B /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0F4D34179B28200A88E3ECDB5F6223B3 /* Pods-Buffalo Byte Remote ControlTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Buffalo Byte Remote ControlTests-umbrella.h"; sourceTree = "<group>"; };
+		13E44C8A30962BC574C49B4D56A3E3CA /* Pods_Buffalo_Byte_Remote_ControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buffalo_Byte_Remote_ControlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		149BFD9FE46A3C137F85AFD47F8B507B /* BRHJoyStickView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRHJoyStickView-umbrella.h"; sourceTree = "<group>"; };
+		2C3CCA9623DDE3B9928F05E731CAA2A8 /* BRHJoyStickView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRHJoyStickView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2E3CBECC59C88334DB2A2E516ECC8D /* BRHJoyStickView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRHJoyStickView-dummy.m"; sourceTree = "<group>"; };
+		470B45742D59CAF1AD09AD5BF5D504B7 /* Pods-Buffalo Byte Remote Control-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Buffalo Byte Remote Control-frameworks.sh"; sourceTree = "<group>"; };
+		47A1A5B69142024D07CB04F629C87A63 /* BRHJoyStickView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRHJoyStickView.release.xcconfig; sourceTree = "<group>"; };
+		4B49024F49AD981B684EDB90FBCD91B6 /* BRHJoyStickView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRHJoyStickView.debug.xcconfig; sourceTree = "<group>"; };
+		4C2904CCC84DA0292FEF11E19490D873 /* JoyStickViewMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JoyStickViewMonitor.swift; path = Sources/JoyStickView/JoyStickViewMonitor.swift; sourceTree = "<group>"; };
+		4D30913AE9A86C6A559D01B7ACB255B0 /* Pods-Buffalo Byte Remote ControlTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Buffalo Byte Remote ControlTests-Info.plist"; sourceTree = "<group>"; };
+		59093A1191B7722D18BE6A510A211B62 /* Pods-Buffalo Byte Remote Control-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Buffalo Byte Remote Control-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BD7674E19B3F58A98F97593F131B387 /* Pods-Buffalo Byte Remote Control-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Buffalo Byte Remote Control-Info.plist"; sourceTree = "<group>"; };
+		5F1F40A6F099E0D63E8F2902D8A4E321 /* BRHJoyStickView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRHJoyStickView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F473E742AD48B39B9B62DA140E0A8F0 /* CoreGraphics+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoreGraphics+Additions.swift"; path = "Sources/JoyStickView/CoreGraphics+Additions.swift"; sourceTree = "<group>"; };
+		70CD7E1BB2097D6DC0A70F9127FE4FAE /* Pods-Buffalo Byte Remote Control.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Buffalo Byte Remote Control.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73AC156A54CDF4474A84691AB518ABE2 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.release.xcconfig"; sourceTree = "<group>"; };
+		77C25E4684C459C7EC9792E9BDFE2FC3 /* Pods-Buffalo Byte Remote ControlTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Buffalo Byte Remote ControlTests.modulemap"; sourceTree = "<group>"; };
+		894260748262711A6AB2179C561B85A2 /* Pods_Buffalo_Byte_Remote_Control.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buffalo_Byte_Remote_Control.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2E9EF549AD9103EDC7D37D9C2014EE /* JoyStickView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JoyStickView.swift; path = Sources/JoyStickView/JoyStickView.swift; sourceTree = "<group>"; };
+		8B9C7D43B388774F1B0BD3899A3B7150 /* Pods-Buffalo Byte Remote ControlTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Buffalo Byte Remote ControlTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C9490328CD63D31543FD0E8851EE529 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-umbrella.h"; sourceTree = "<group>"; };
+		8F9495C0A227B3D94412A90DC1729FDB /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-Info.plist"; sourceTree = "<group>"; };
+		9A325FAECC8ACD746837F036213D41BB /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B476C3DA04313ABB274E4522303575A /* Pods-Buffalo Byte Remote Control-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Buffalo Byte Remote Control-dummy.m"; sourceTree = "<group>"; };
+		9BD07DB196F88245CAB73BEE92E6C7E1 /* BRHJoyStickView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRHJoyStickView-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F69541BBE4ADA4FC229BAC85C0F7272 /* Pods-Buffalo Byte Remote ControlTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Buffalo Byte Remote ControlTests-dummy.m"; sourceTree = "<group>"; };
+		A4B676836104D71964F118D094C1DD76 /* Pods_Buffalo_Byte_Remote_Control_Buffalo_Byte_Remote_ControlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buffalo_Byte_Remote_Control_Buffalo_Byte_Remote_ControlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EE593AAE70D89F735A0E03537D5326 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A635014A590D2EED6201CCC09FBEC191 /* ResourceBundle-BRHJoyStickView-BRHJoyStickView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BRHJoyStickView-BRHJoyStickView-Info.plist"; sourceTree = "<group>"; };
+		A9DF2BC64E7A8AB42BB641E3873C250E /* BRHJoyStickView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BRHJoyStickView-Info.plist"; sourceTree = "<group>"; };
+		B49120A9BDFA77E6A7397437D5BB17C5 /* Pods-Buffalo Byte Remote Control.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Buffalo Byte Remote Control.release.xcconfig"; sourceTree = "<group>"; };
+		B544D05EF72F5BB18004933F3BCDFEBB /* Pods-Buffalo Byte Remote ControlTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Buffalo Byte Remote ControlTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8070CBF94DD2CEF74A2DE62F2A798CC /* Pods-Buffalo Byte Remote Control-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Buffalo Byte Remote Control-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B94A0960E0DE510D85B8C8A0AC25C357 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB7667FB33F2026427E903E42B72F7DE /* BRHJoyStickView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BRHJoyStickView.modulemap; sourceTree = "<group>"; };
+		DF44C3A37707A2184EA55B1B9969DF59 /* Pods-Buffalo Byte Remote ControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Buffalo Byte Remote ControlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E86BFAC50458BEE912DC2DAFD9904E0B /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.modulemap"; sourceTree = "<group>"; };
+		F29C33AAD3C7656476B0EDEE2344E8DB /* Pods-Buffalo Byte Remote Control.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Buffalo Byte Remote Control.modulemap"; sourceTree = "<group>"; };
+		FAC1B8688F868A49E7654D98E4365FBA /* Bundle+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Additions.swift"; path = "Sources/JoyStickView/Bundle+Additions.swift"; sourceTree = "<group>"; };
+		FC653CC6238EC920BD17B9B09EAE5242 /* Pods-Buffalo Byte Remote ControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Buffalo Byte Remote ControlTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C5E8AEED058DB661B9AF6CA0503116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A001CE99D111549D9733CE64D23AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD4A2AF6C7FF4C41B5CD7881B3F9B0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB90DDFF2E1B4DBD8E810E2EE0B3489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4952401103E17D34EA98AF3D2480BC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF983E1046894877DD1AB75EEA44832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0892173070F4655D9BC77CD833C779EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1066A67DBEBEFCE9D41FAC3CC93B201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5AC844AC540F1D9D0B216D1586A9C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079A95A4D3927012278C78B886322EA3 /* BRHJoyStickView */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1B8688F868A49E7654D98E4365FBA /* Bundle+Additions.swift */,
+				5F473E742AD48B39B9B62DA140E0A8F0 /* CoreGraphics+Additions.swift */,
+				8A2E9EF549AD9103EDC7D37D9C2014EE /* JoyStickView.swift */,
+				4C2904CCC84DA0292FEF11E19490D873 /* JoyStickViewMonitor.swift */,
+				7E12E9E856EF2A7260AB35FFA4A2B795 /* Resources */,
+				1C6E42504EA809A75DEC65D4A38C4531 /* Support Files */,
+			);
+			path = BRHJoyStickView;
+			sourceTree = "<group>";
+		};
+		1C6E42504EA809A75DEC65D4A38C4531 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB7667FB33F2026427E903E42B72F7DE /* BRHJoyStickView.modulemap */,
+				3F2E3CBECC59C88334DB2A2E516ECC8D /* BRHJoyStickView-dummy.m */,
+				A9DF2BC64E7A8AB42BB641E3873C250E /* BRHJoyStickView-Info.plist */,
+				9BD07DB196F88245CAB73BEE92E6C7E1 /* BRHJoyStickView-prefix.pch */,
+				149BFD9FE46A3C137F85AFD47F8B507B /* BRHJoyStickView-umbrella.h */,
+				4B49024F49AD981B684EDB90FBCD91B6 /* BRHJoyStickView.debug.xcconfig */,
+				47A1A5B69142024D07CB04F629C87A63 /* BRHJoyStickView.release.xcconfig */,
+				A635014A590D2EED6201CCC09FBEC191 /* ResourceBundle-BRHJoyStickView-BRHJoyStickView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BRHJoyStickView";
+			sourceTree = "<group>";
+		};
+		262F6A93DBA5FDD03A6AC84E98AF588C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C3CCA9623DDE3B9928F05E731CAA2A8 /* BRHJoyStickView.framework */,
+				5F1F40A6F099E0D63E8F2902D8A4E321 /* BRHJoyStickView.bundle */,
+				894260748262711A6AB2179C561B85A2 /* Pods_Buffalo_Byte_Remote_Control.framework */,
+				A4B676836104D71964F118D094C1DD76 /* Pods_Buffalo_Byte_Remote_Control_Buffalo_Byte_Remote_ControlUITests.framework */,
+				13E44C8A30962BC574C49B4D56A3E3CA /* Pods_Buffalo_Byte_Remote_ControlTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2879F12105B1EC88F158F64CB00D40CD /* Pods-Buffalo Byte Remote Control */ = {
+			isa = PBXGroup;
+			children = (
+				F29C33AAD3C7656476B0EDEE2344E8DB /* Pods-Buffalo Byte Remote Control.modulemap */,
+				B8070CBF94DD2CEF74A2DE62F2A798CC /* Pods-Buffalo Byte Remote Control-acknowledgements.markdown */,
+				59093A1191B7722D18BE6A510A211B62 /* Pods-Buffalo Byte Remote Control-acknowledgements.plist */,
+				9B476C3DA04313ABB274E4522303575A /* Pods-Buffalo Byte Remote Control-dummy.m */,
+				470B45742D59CAF1AD09AD5BF5D504B7 /* Pods-Buffalo Byte Remote Control-frameworks.sh */,
+				5BD7674E19B3F58A98F97593F131B387 /* Pods-Buffalo Byte Remote Control-Info.plist */,
+				0084A28728E06D0A4D54CB2E34D6C79F /* Pods-Buffalo Byte Remote Control-umbrella.h */,
+				70CD7E1BB2097D6DC0A70F9127FE4FAE /* Pods-Buffalo Byte Remote Control.debug.xcconfig */,
+				B49120A9BDFA77E6A7397437D5BB17C5 /* Pods-Buffalo Byte Remote Control.release.xcconfig */,
+			);
+			name = "Pods-Buffalo Byte Remote Control";
+			path = "Target Support Files/Pods-Buffalo Byte Remote Control";
+			sourceTree = "<group>";
+		};
+		2B8F1ADA358447DBEF86E3D72B7C111B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				079A95A4D3927012278C78B886322EA3 /* BRHJoyStickView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BE91D395B1972D69FF7C81BA911D9E4 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E86BFAC50458BEE912DC2DAFD9904E0B /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.modulemap */,
+				B94A0960E0DE510D85B8C8A0AC25C357 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-acknowledgements.markdown */,
+				A4EE593AAE70D89F735A0E03537D5326 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-acknowledgements.plist */,
+				008E27B73125829E9D33D8F6C3CC2698 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-dummy.m */,
+				0AFFF08C96DF66A42D8876B20CFE2F9B /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-frameworks.sh */,
+				8F9495C0A227B3D94412A90DC1729FDB /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-Info.plist */,
+				8C9490328CD63D31543FD0E8851EE529 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-umbrella.h */,
+				9A325FAECC8ACD746837F036213D41BB /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.debug.xcconfig */,
+				73AC156A54CDF4474A84691AB518ABE2 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.release.xcconfig */,
+			);
+			name = "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests";
+			path = "Target Support Files/Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7E12E9E856EF2A7260AB35FFA4A2B795 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0700161FD8A663F3ED900DD63A886899 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8C0C9412906B554A300C491E8B0A983D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2879F12105B1EC88F158F64CB00D40CD /* Pods-Buffalo Byte Remote Control */,
+				4BE91D395B1972D69FF7C81BA911D9E4 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests */,
+				92FFE4B66F376AE7A7F6D8875B791227 /* Pods-Buffalo Byte Remote ControlTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		92FFE4B66F376AE7A7F6D8875B791227 /* Pods-Buffalo Byte Remote ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				77C25E4684C459C7EC9792E9BDFE2FC3 /* Pods-Buffalo Byte Remote ControlTests.modulemap */,
+				8B9C7D43B388774F1B0BD3899A3B7150 /* Pods-Buffalo Byte Remote ControlTests-acknowledgements.markdown */,
+				B544D05EF72F5BB18004933F3BCDFEBB /* Pods-Buffalo Byte Remote ControlTests-acknowledgements.plist */,
+				9F69541BBE4ADA4FC229BAC85C0F7272 /* Pods-Buffalo Byte Remote ControlTests-dummy.m */,
+				4D30913AE9A86C6A559D01B7ACB255B0 /* Pods-Buffalo Byte Remote ControlTests-Info.plist */,
+				0F4D34179B28200A88E3ECDB5F6223B3 /* Pods-Buffalo Byte Remote ControlTests-umbrella.h */,
+				DF44C3A37707A2184EA55B1B9969DF59 /* Pods-Buffalo Byte Remote ControlTests.debug.xcconfig */,
+				FC653CC6238EC920BD17B9B09EAE5242 /* Pods-Buffalo Byte Remote ControlTests.release.xcconfig */,
+			);
+			name = "Pods-Buffalo Byte Remote ControlTests";
+			path = "Target Support Files/Pods-Buffalo Byte Remote ControlTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2B8F1ADA358447DBEF86E3D72B7C111B /* Pods */,
+				262F6A93DBA5FDD03A6AC84E98AF588C /* Products */,
+				8C0C9412906B554A300C491E8B0A983D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A2C3947A8A1FBCB2C03CAE267CE748D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58BED26590B08FFB47F065D9C830D23 /* BRHJoyStickView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC3063547AE090FCB0B69693B9DC85B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427A66601FAD9D914786661B1BAA0BFA /* Pods-Buffalo Byte Remote Control-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D2752C47426F075AA0EAC8791AE92A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D26CB6F0972A445C846E199C09BA47 /* Pods-Buffalo Byte Remote ControlTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B6ABA6A32626B37F8E578351F24421 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D549DA60A96A31588E579C95819C78 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		69DB37D32E4103D95B632DDF492B6A34 /* BRHJoyStickView-BRHJoyStickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21E0CFCC45122129142AE681481E452 /* Build configuration list for PBXNativeTarget "BRHJoyStickView-BRHJoyStickView" */;
+			buildPhases = (
+				B259425F14863F4AF615073A72F26C45 /* Sources */,
+				00C5E8AEED058DB661B9AF6CA0503116 /* Frameworks */,
+				FF245026AFB3503090F296A683D34B52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BRHJoyStickView-BRHJoyStickView";
+			productName = BRHJoyStickView;
+			productReference = 5F1F40A6F099E0D63E8F2902D8A4E321 /* BRHJoyStickView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A12A537F6F989C7795D7BC486FA38E78 /* Pods-Buffalo Byte Remote Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD2D709A9ED246FBAAA9663953DB98B /* Build configuration list for PBXNativeTarget "Pods-Buffalo Byte Remote Control" */;
+			buildPhases = (
+				AEC3063547AE090FCB0B69693B9DC85B /* Headers */,
+				726D8F5BFBF56BE24BDEB7931C0C971C /* Sources */,
+				B1066A67DBEBEFCE9D41FAC3CC93B201 /* Frameworks */,
+				82A0BD50B886812125CC69C12DC09D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A0670C09FB6840F3C881FD602BB5DF /* PBXTargetDependency */,
+			);
+			name = "Pods-Buffalo Byte Remote Control";
+			productName = Pods_Buffalo_Byte_Remote_Control;
+			productReference = 894260748262711A6AB2179C561B85A2 /* Pods_Buffalo_Byte_Remote_Control.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD6F17105988B1F38EF2A3D31277833C /* BRHJoyStickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7110F0F4660092736BAA9706C76A04 /* Build configuration list for PBXNativeTarget "BRHJoyStickView" */;
+			buildPhases = (
+				3A2C3947A8A1FBCB2C03CAE267CE748D /* Headers */,
+				0B74EE2F5113D4B9C8142F9F2A8B897A /* Sources */,
+				9AF983E1046894877DD1AB75EEA44832 /* Frameworks */,
+				C2BDF1796595BF9B637E4A8A237BCE6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA59547A3502E3E4C38AEA963715247 /* PBXTargetDependency */,
+			);
+			name = BRHJoyStickView;
+			productName = BRHJoyStickView;
+			productReference = 2C3CCA9623DDE3B9928F05E731CAA2A8 /* BRHJoyStickView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7D8824CBFBFD0A7EC7CAB5742DB3F72 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3529F0421B9583C23CC505F82A80A05 /* Build configuration list for PBXNativeTarget "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests" */;
+			buildPhases = (
+				F1B6ABA6A32626B37F8E578351F24421 /* Headers */,
+				F8D3C0A507B8DF3F01D1C33E73498B79 /* Sources */,
+				323A001CE99D111549D9733CE64D23AB /* Frameworks */,
+				4E1DE2FEDA6F32AF7FB0400884CB105B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				789030F541C725BCE043EB3ECCA57E34 /* PBXTargetDependency */,
+			);
+			name = "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests";
+			productName = Pods_Buffalo_Byte_Remote_Control_Buffalo_Byte_Remote_ControlUITests;
+			productReference = A4B676836104D71964F118D094C1DD76 /* Pods_Buffalo_Byte_Remote_Control_Buffalo_Byte_Remote_ControlUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD50D96723CB70E3AEC4155C86370D54 /* Pods-Buffalo Byte Remote ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A568C74A38DB2F10876DA3E36E9A21 /* Build configuration list for PBXNativeTarget "Pods-Buffalo Byte Remote ControlTests" */;
+			buildPhases = (
+				E4D2752C47426F075AA0EAC8791AE92A /* Headers */,
+				5F532E0C38158E0D2BE2615BF95BB0F4 /* Sources */,
+				4BB90DDFF2E1B4DBD8E810E2EE0B3489 /* Frameworks */,
+				176AFD8B326FA689355A91C97AB7B049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51563CB78E70C2DF49B3662DBDABB07A /* PBXTargetDependency */,
+			);
+			name = "Pods-Buffalo Byte Remote ControlTests";
+			productName = Pods_Buffalo_Byte_Remote_ControlTests;
+			productReference = 13E44C8A30962BC574C49B4D56A3E3CA /* Pods_Buffalo_Byte_Remote_ControlTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 262F6A93DBA5FDD03A6AC84E98AF588C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6F17105988B1F38EF2A3D31277833C /* BRHJoyStickView */,
+				69DB37D32E4103D95B632DDF492B6A34 /* BRHJoyStickView-BRHJoyStickView */,
+				A12A537F6F989C7795D7BC486FA38E78 /* Pods-Buffalo Byte Remote Control */,
+				E7D8824CBFBFD0A7EC7CAB5742DB3F72 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests */,
+				FD50D96723CB70E3AEC4155C86370D54 /* Pods-Buffalo Byte Remote ControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		176AFD8B326FA689355A91C97AB7B049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1DE2FEDA6F32AF7FB0400884CB105B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A0BD50B886812125CC69C12DC09D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BDF1796595BF9B637E4A8A237BCE6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25B5E2A88B42A9F4D5A25D623B319C1 /* BRHJoyStickView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF245026AFB3503090F296A683D34B52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3402547CCAE0DEC9907C37D0E081A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B74EE2F5113D4B9C8142F9F2A8B897A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CB0832CEC679F64B25342F90487F54 /* BRHJoyStickView-dummy.m in Sources */,
+				5C6E5003BB0C73CF065E7425A6810F79 /* Bundle+Additions.swift in Sources */,
+				18A838CE22EC2DEEAA665DDE1838F681 /* CoreGraphics+Additions.swift in Sources */,
+				D215E3B8544E2D0FD0A62BE306469B5A /* JoyStickView.swift in Sources */,
+				40165E7185203B0CAAEC2C341DC7D99F /* JoyStickViewMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F532E0C38158E0D2BE2615BF95BB0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF0B4630E9D6A747481AE40439299B /* Pods-Buffalo Byte Remote ControlTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726D8F5BFBF56BE24BDEB7931C0C971C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01DEC5B457F83B0D2C7B91D3D25A5E9 /* Pods-Buffalo Byte Remote Control-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B259425F14863F4AF615073A72F26C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D3C0A507B8DF3F01D1C33E73498B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544187F53255A29931CF40A80567FA3D /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15A0670C09FB6840F3C881FD602BB5DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRHJoyStickView;
+			target = DD6F17105988B1F38EF2A3D31277833C /* BRHJoyStickView */;
+			targetProxy = 93582302E263E3D9E59A2EAB7B5D4F68 /* PBXContainerItemProxy */;
+		};
+		3DA59547A3502E3E4C38AEA963715247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BRHJoyStickView-BRHJoyStickView";
+			target = 69DB37D32E4103D95B632DDF492B6A34 /* BRHJoyStickView-BRHJoyStickView */;
+			targetProxy = 9DCFA7D1A60C7536FA69CD5D714C118A /* PBXContainerItemProxy */;
+		};
+		51563CB78E70C2DF49B3662DBDABB07A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Buffalo Byte Remote Control";
+			target = A12A537F6F989C7795D7BC486FA38E78 /* Pods-Buffalo Byte Remote Control */;
+			targetProxy = 565491A691047D43FE4F36ACAE8BF1BB /* PBXContainerItemProxy */;
+		};
+		789030F541C725BCE043EB3ECCA57E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRHJoyStickView;
+			target = DD6F17105988B1F38EF2A3D31277833C /* BRHJoyStickView */;
+			targetProxy = E827D2E40899A41A477665442E174184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		159DC4F484B8AC4D3CB74BA3452E01A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B49024F49AD981B684EDB90FBCD91B6 /* BRHJoyStickView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BRHJoyStickView/BRHJoyStickView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRHJoyStickView/BRHJoyStickView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BRHJoyStickView/BRHJoyStickView.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = BRHJoyStickView;
+				PRODUCT_NAME = BRHJoyStickView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A50F959A3DBF46D319BEC1FEA24D9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF44C3A37707A2184EA55B1B9969DF59 /* Pods-Buffalo Byte Remote ControlTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Buffalo Byte Remote ControlTests/Pods-Buffalo Byte Remote ControlTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Buffalo Byte Remote ControlTests/Pods-Buffalo Byte Remote ControlTests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE953A0AA40A5520EF641635FE4D123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70CD7E1BB2097D6DC0A70F9127FE4FAE /* Pods-Buffalo Byte Remote Control.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Buffalo Byte Remote Control/Pods-Buffalo Byte Remote Control-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Buffalo Byte Remote Control/Pods-Buffalo Byte Remote Control.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3679F43DBC46D4460C54045DC1E5445F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49120A9BDFA77E6A7397437D5BB17C5 /* Pods-Buffalo Byte Remote Control.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Buffalo Byte Remote Control/Pods-Buffalo Byte Remote Control-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Buffalo Byte Remote Control/Pods-Buffalo Byte Remote Control.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D9935B2E411338F374B013BC0EC980E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC653CC6238EC920BD17B9B09EAE5242 /* Pods-Buffalo Byte Remote ControlTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Buffalo Byte Remote ControlTests/Pods-Buffalo Byte Remote ControlTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Buffalo Byte Remote ControlTests/Pods-Buffalo Byte Remote ControlTests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A29F1F64ABB48AB3364A6C458D2FD0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A1A5B69142024D07CB04F629C87A63 /* BRHJoyStickView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BRHJoyStickView/BRHJoyStickView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRHJoyStickView/BRHJoyStickView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BRHJoyStickView/BRHJoyStickView.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = BRHJoyStickView;
+				PRODUCT_NAME = BRHJoyStickView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDB759A986E0AA1023EA2CBF88C31BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AC156A54CDF4474A84691AB518ABE2 /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests/Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests/Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2C5B4683BF0033EF5ED1B14D45D0C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A325FAECC8ACD746837F036213D41BB /* Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests/Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests/Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D46EA268672E64357C6F50C2DD04DA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B49024F49AD981B684EDB90FBCD91B6 /* BRHJoyStickView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BRHJoyStickView";
+				IBSC_MODULE = BRHJoyStickView;
+				INFOPLIST_FILE = "Target Support Files/BRHJoyStickView/ResourceBundle-BRHJoyStickView-BRHJoyStickView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = BRHJoyStickView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E873CA97BD124B21839AF13C9BE1CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FBD8FA5ADFC79E33D0D1C93327A418E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A1A5B69142024D07CB04F629C87A63 /* BRHJoyStickView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BRHJoyStickView";
+				IBSC_MODULE = BRHJoyStickView;
+				INFOPLIST_FILE = "Target Support Files/BRHJoyStickView/ResourceBundle-BRHJoyStickView-BRHJoyStickView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = BRHJoyStickView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */,
+				E873CA97BD124B21839AF13C9BE1CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A568C74A38DB2F10876DA3E36E9A21 /* Build configuration list for PBXNativeTarget "Pods-Buffalo Byte Remote ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A50F959A3DBF46D319BEC1FEA24D9FA /* Debug */,
+				5D9935B2E411338F374B013BC0EC980E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD2D709A9ED246FBAAA9663953DB98B /* Build configuration list for PBXNativeTarget "Pods-Buffalo Byte Remote Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE953A0AA40A5520EF641635FE4D123 /* Debug */,
+				3679F43DBC46D4460C54045DC1E5445F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7110F0F4660092736BAA9706C76A04 /* Build configuration list for PBXNativeTarget "BRHJoyStickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159DC4F484B8AC4D3CB74BA3452E01A5 /* Debug */,
+				A29F1F64ABB48AB3364A6C458D2FD0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3529F0421B9583C23CC505F82A80A05 /* Build configuration list for PBXNativeTarget "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C5B4683BF0033EF5ED1B14D45D0C79 /* Debug */,
+				BDB759A986E0AA1023EA2CBF88C31BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21E0CFCC45122129142AE681481E452 /* Build configuration list for PBXNativeTarget "BRHJoyStickView-BRHJoyStickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46EA268672E64357C6F50C2DD04DA3C /* Debug */,
+				FBD8FA5ADFC79E33D0D1C93327A418E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

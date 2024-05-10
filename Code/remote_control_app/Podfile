@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Buffalo Byte Remote Control' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Buffalo Byte Remote Control
+  
+  pod 'BRHJoyStickView', '~> 3.2'
+
+  target 'Buffalo Byte Remote ControlTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Buffalo Byte Remote ControlUITests' do
+    # Pods for testing
+  end
+
+end

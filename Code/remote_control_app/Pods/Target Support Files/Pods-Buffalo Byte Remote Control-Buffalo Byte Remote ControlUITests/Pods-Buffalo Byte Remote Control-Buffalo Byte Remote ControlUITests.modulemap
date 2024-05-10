@@ -1,0 +1,6 @@
+framework module Pods_Buffalo_Byte_Remote_Control_Buffalo_Byte_Remote_ControlUITests {
+  umbrella header "Pods-Buffalo Byte Remote Control-Buffalo Byte Remote ControlUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
